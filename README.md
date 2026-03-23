@@ -1,2 +1,2 @@
 # Tic-Tac-Toe
-My first project.
+This is my project using HTML , CSS and Javascript.
