@@ -1,2 +1,2 @@
 # Tic-Tac-Toe
-This is my project using HTML , CSS and Javascript.
+this was built to understand working javascript class list feature.<br> And how to access every element.
