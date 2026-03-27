@@ -8,6 +8,7 @@ body {
   text-align: center;
   opacity: 0;
   animation: fadeIn 2s ease-in forwards;
+  min-height: 100dvh;
 }
 @keyframes fadeIn {
   to {
@@ -16,7 +17,7 @@ body {
 }
 .content {
   margin-top: 50px;
-  height: 100vh;
+  min-height: 80vh;
   display: flex;
   justify-content: center;
   align-items: center;
