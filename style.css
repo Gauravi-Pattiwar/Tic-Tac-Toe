@@ -3,7 +3,7 @@ body {
   margin: 0px;
   background-image: url(background.png);
   background-repeat: no-repeat;
-  position: relative;
+  background-position: center;
   background-size: cover;
   text-align: center;
   opacity: 0;
@@ -50,7 +50,7 @@ body {
   border: none;
 }
 .heading h1 {
-  font-size: 60px;
+  font-size: 8vmin;
   color: #2e1f49;
 }
 #newGame {
@@ -73,4 +73,22 @@ body {
   margin-bottom: 5px;
   color: #6a0538;
   font-weight: 600;
+}
+@media(max-width: 600px){
+  .game{
+    height: 90vmin;
+    width: 90vmin;
+  }
+  .box{
+    height:28vmin;
+    width:28vmin;
+    font-size:10vmin;
+  }
+  #reset , #newGame{
+    font-size:4vmin;
+    padding:2vminl
+  }
+  #msg{
+    font-size:5vmin;
+  }
 }
